@@ -1,0 +1,33 @@
+.form {
+  width: 60%;
+  margin: 0 auto;
+
+  &__group {
+    &:not(:last-child) {
+      margin-bottom: 2rem !important;
+    }
+  }
+
+  input[type='text'],
+  input[type='email'],
+  select,
+  textarea {
+    width: 100%;
+    padding: .7rem;
+    border-radius: .3rem;
+    border: 1px solid #ccc;
+  }
+  input[type='submit']{
+    cursor: pointer;
+  }
+  input[type='checkbox'] {
+    margin: 1rem .5rem 1rem 0;
+  }
+  textarea {
+    height: 10rem;
+  }
+  &__input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(233, 233, 234, 0.5);
+  }
+}

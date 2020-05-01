@@ -1,0 +1,20 @@
+.city {
+
+  &__feature {
+
+  }
+  &__img {
+    width: 100%;
+  }
+  &__icon {
+    display: inline-block;
+    width: 3rem;
+    text-align: center;
+    color: $color-primary;
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+  &__link {
+
+  }
+}

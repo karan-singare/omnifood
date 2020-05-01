@@ -1,0 +1,40 @@
+section {
+  padding: 8rem 0;
+}
+
+.features {
+  &__heading {
+    text-align: center;
+
+    &::after {
+      display: block;
+      content: "";
+      height: .2rem;
+      background-color: $color-primary;
+      width: 10rem;
+      margin: 0 auto;
+      margin-top: 3rem;
+    }
+  }
+}
+
+.meals {
+  padding: 0;
+}
+
+.working {
+  background-color: rgba(#f5f5f5, 0.6);
+  &__content {
+    position: relative;
+  }
+}
+.testimonials {
+  background-image: linear-gradient(rgba($color-black, .8), rgba($color-black, .8)), url('images/back-customers.jpg');
+  background-size: cover;
+  color: $color-white;
+  background-attachment: fixed;
+}
+
+.plans {
+  background-color: #f4f4f4;
+}

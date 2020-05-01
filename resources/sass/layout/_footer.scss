@@ -1,0 +1,24 @@
+.footer {
+  padding: 5rem;
+  background-color: rgba(22, 22, 22, 0.9);
+  color: $color-white;
+  text-align: center;
+
+  ul {
+    list-style: none;
+    display: flex;
+    li:not(:last-child) {
+      margin-right: 3rem;
+    }
+  }
+
+  a {
+    color: rgba(231, 231, 231, 0.75);
+    transition: all .3s ease-in;
+    border: none;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+
+}

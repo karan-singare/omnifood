@@ -1,0 +1,38 @@
+.gallery {
+  list-style: none;
+  width: 100%;
+
+  @include clearfix;
+
+  &__item {
+    display: block;
+    float: left;
+    width: 25%;
+  }
+
+  /**
+   * dark background-color for photo and
+   * then 70% opacity of image makes the image little darker
+   */
+
+  &__photo {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+    background-color: $color-black;
+  }
+
+  &__img {
+    opacity: .7;
+
+    width: 100%;
+    transform: scale(1.15);
+    transition: all .5s;
+
+    &:hover {
+      transform: scale(1.03);
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.testimonial {
+  blockquote {
+    padding: 2%;
+    line-height: 145%;
+    font-style: italic;
+    font-size: 1.8rem;
+
+    position: relative;
+
+    &:before {
+      content: "\201C";
+      font-size: 10rem;
+      display: block;
+      position: absolute;
+      top: 0rem;
+      left: -.5rem;
+    }
+  }
+  cite {
+    font-size: 1.6rem;
+    display: block;
+    margin-top: 2.5rem;
+
+  img {
+    width: 4.5rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    vertical-align: middle;
+  }
+
+  }
+}

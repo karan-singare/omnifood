@@ -1,0 +1,29 @@
+.navigation {
+  float: right;
+  list-style: none;
+  margin-top: 6rem;
+
+  &__item {
+    display: inline-block;
+    margin-left: 4rem;
+  }
+
+  &__link {
+    &,
+    &:link,
+    &:visited {
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 1.8rem;
+      border-bottom: 2px solid transparent;
+      transition: all .2s ease-in;
+      padding: .8rem 0;
+    }
+
+    &:active,
+    &:hover {
+      border-bottom: 2px solid $color-primary;
+    }
+  }
+}

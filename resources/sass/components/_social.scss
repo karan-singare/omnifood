@@ -1,0 +1,13 @@
+.social {
+  float: right;
+  &__item {
+
+  }
+
+  &__link {
+    border-bottom: none !important;
+  }
+  &__icon {
+    font-size: 1.8rem;
+  }
+}

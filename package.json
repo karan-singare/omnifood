@@ -1,0 +1,15 @@
+{
+  "name": "omnifood",
+  "version": "1.0.0",
+  "description": "Website for premium food delivery",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass resources/sass/main.scss resources/css/style.css -w"
+  },
+  "author": "Karan Singh Singare",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.0",
+    "normalize.css": "^8.0.1"
+  }
+}
